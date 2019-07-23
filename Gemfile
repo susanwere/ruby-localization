@@ -58,3 +58,4 @@ gem 'bootstrap', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'pusher'
 gem 'figaro'
+gem 'dotenv-rails', groups: [:development, :test]
