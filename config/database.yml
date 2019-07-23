@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   database: ruby-localization_development
-  username: susanwere
-  password: ''
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
